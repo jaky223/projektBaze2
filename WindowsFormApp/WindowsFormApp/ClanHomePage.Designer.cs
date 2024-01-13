@@ -98,6 +98,7 @@
             // 
             // dtpBox
             // 
+            this.dtpBox.Enabled = false;
             this.dtpBox.Location = new System.Drawing.Point(91, 111);
             this.dtpBox.Name = "dtpBox";
             this.dtpBox.Size = new System.Drawing.Size(159, 20);
@@ -138,9 +139,11 @@
             this.btnPromijeniPodatke.TabIndex = 0;
             this.btnPromijeniPodatke.Text = "Promijeni podatke";
             this.btnPromijeniPodatke.UseVisualStyleBackColor = true;
+            this.btnPromijeniPodatke.Click += new System.EventHandler(this.btnPromijeniPodatke_Click);
             // 
             // txtIme
             // 
+            this.txtIme.Enabled = false;
             this.txtIme.Location = new System.Drawing.Point(91, 29);
             this.txtIme.Name = "txtIme";
             this.txtIme.Size = new System.Drawing.Size(159, 20);
@@ -155,6 +158,7 @@
             // 
             // txtPrezime
             // 
+            this.txtPrezime.Enabled = false;
             this.txtPrezime.Location = new System.Drawing.Point(91, 69);
             this.txtPrezime.Name = "txtPrezime";
             this.txtPrezime.Size = new System.Drawing.Size(159, 20);
@@ -162,6 +166,7 @@
             // 
             // txtKorime
             // 
+            this.txtKorime.Enabled = false;
             this.txtKorime.Location = new System.Drawing.Point(91, 147);
             this.txtKorime.Name = "txtKorime";
             this.txtKorime.Size = new System.Drawing.Size(159, 20);
@@ -262,6 +267,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "ClanHomePage";
             this.Text = "ClanHomePage";
+            this.Load += new System.EventHandler(this.ClanHomePage_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

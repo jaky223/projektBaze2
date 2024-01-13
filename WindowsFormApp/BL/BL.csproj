@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bazapodataka\Bazapodataka.csproj" />
     <ProjectReference Include="..\DL\DL.csproj" />
   </ItemGroup>
 
