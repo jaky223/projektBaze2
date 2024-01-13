@@ -1,0 +1,11 @@
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\bin\Debug\WindowsFormApp.exe.config
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\bin\Debug\WindowsFormApp.exe
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\bin\Debug\WindowsFormApp.pdb
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\obj\Debug\WindowsFormApp.csproj.AssemblyReference.cache
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\obj\Debug\WindowsFormApp.Form1.resources
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\obj\Debug\WindowsFormApp.Properties.Resources.resources
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\obj\Debug\WindowsFormApp.ZaposlenikHomePage.resources
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\obj\Debug\WindowsFormApp.csproj.GenerateResource.cache
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\obj\Debug\WindowsFormApp.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\obj\Debug\WindowsFormApp.exe
+C:\Users\sebas\Documents\projektBaze23\WindowsFormApp\WindowsFormApp\obj\Debug\WindowsFormApp.pdb

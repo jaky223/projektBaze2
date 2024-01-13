@@ -32,14 +32,14 @@
             this.txtKorimeZaposlenik = new System.Windows.Forms.TextBox();
             this.txtLozinkaZaposlenik = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtLozinkaClan = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtKorimeClan = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtLozinkaClan = new System.Windows.Forms.TextBox();
+            this.btnClanLogin = new System.Windows.Forms.Button();
+            this.txtKorimeClan = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -82,6 +82,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Zaposlenik";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(1, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Lozinka:";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -96,7 +105,7 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.txtLozinkaClan);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.btnClanLogin);
             this.groupBox2.Controls.Add(this.txtKorimeClan);
             this.groupBox2.Location = new System.Drawing.Point(327, 31);
             this.groupBox2.Name = "groupBox2";
@@ -105,28 +114,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Clan";
             // 
-            // txtLozinkaClan
+            // label4
             // 
-            this.txtLozinkaClan.Location = new System.Drawing.Point(52, 50);
-            this.txtLozinkaClan.Name = "txtLozinkaClan";
-            this.txtLozinkaClan.Size = new System.Drawing.Size(144, 20);
-            this.txtLozinkaClan.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(72, 76);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 43);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Clan login";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // txtKorimeClan
-            // 
-            this.txtKorimeClan.Location = new System.Drawing.Point(52, 24);
-            this.txtKorimeClan.Name = "txtKorimeClan";
-            this.txtKorimeClan.Size = new System.Drawing.Size(144, 20);
-            this.txtKorimeClan.TabIndex = 1;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(1, 53);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(47, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Lozinka:";
             // 
             // label2
             // 
@@ -137,23 +132,29 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Korime:";
             // 
-            // label3
+            // txtLozinkaClan
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1, 53);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Lozinka:";
+            this.txtLozinkaClan.Location = new System.Drawing.Point(52, 50);
+            this.txtLozinkaClan.Name = "txtLozinkaClan";
+            this.txtLozinkaClan.Size = new System.Drawing.Size(144, 20);
+            this.txtLozinkaClan.TabIndex = 2;
             // 
-            // label4
+            // btnClanLogin
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1, 53);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Lozinka:";
+            this.btnClanLogin.Location = new System.Drawing.Point(72, 76);
+            this.btnClanLogin.Name = "btnClanLogin";
+            this.btnClanLogin.Size = new System.Drawing.Size(104, 43);
+            this.btnClanLogin.TabIndex = 0;
+            this.btnClanLogin.Text = "Clan login";
+            this.btnClanLogin.UseVisualStyleBackColor = true;
+            this.btnClanLogin.Click += new System.EventHandler(this.btnClanLogin_Click);
+            // 
+            // txtKorimeClan
+            // 
+            this.txtKorimeClan.Location = new System.Drawing.Point(52, 24);
+            this.txtKorimeClan.Name = "txtKorimeClan";
+            this.txtKorimeClan.Size = new System.Drawing.Size(144, 20);
+            this.txtKorimeClan.TabIndex = 1;
             // 
             // Form1
             // 
@@ -182,7 +183,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox txtLozinkaClan;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnClanLogin;
         private System.Windows.Forms.TextBox txtKorimeClan;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

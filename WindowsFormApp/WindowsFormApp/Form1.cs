@@ -24,6 +24,12 @@ namespace WindowsFormApp
 
         private void btnLoginZaposlenik_Click(object sender, EventArgs e)
         {
+            ZaposlenikHomePage frmZaposlenikHomePage = new ZaposlenikHomePage();
+            frmZaposlenikHomePage.Show();
+        }
+
+        private void btnClanLogin_Click(object sender, EventArgs e)
+        {
 
         }
     }
