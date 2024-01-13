@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.btnDodajClana = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtIme = new System.Windows.Forms.TextBox();
+            this.txtPrezime = new System.Windows.Forms.TextBox();
+            this.txtKorime = new System.Windows.Forms.TextBox();
+            this.txtLozinka = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpBox = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvPrikazSvihClanova = new System.Windows.Forms.DataGridView();
             this.btnObrisiClana = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPrikazSvihClanova)).BeginInit();
             this.SuspendLayout();
             // 
             // btnDodajClana
@@ -58,33 +58,33 @@
             this.btnDodajClana.UseVisualStyleBackColor = true;
             this.btnDodajClana.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // txtIme
             // 
-            this.textBox1.Location = new System.Drawing.Point(91, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtIme.Location = new System.Drawing.Point(91, 29);
+            this.txtIme.Name = "txtIme";
+            this.txtIme.Size = new System.Drawing.Size(159, 20);
+            this.txtIme.TabIndex = 1;
             // 
-            // textBox2
+            // txtPrezime
             // 
-            this.textBox2.Location = new System.Drawing.Point(91, 69);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtPrezime.Location = new System.Drawing.Point(91, 69);
+            this.txtPrezime.Name = "txtPrezime";
+            this.txtPrezime.Size = new System.Drawing.Size(159, 20);
+            this.txtPrezime.TabIndex = 2;
             // 
-            // textBox4
+            // txtKorime
             // 
-            this.textBox4.Location = new System.Drawing.Point(91, 147);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(159, 20);
-            this.textBox4.TabIndex = 4;
+            this.txtKorime.Location = new System.Drawing.Point(91, 147);
+            this.txtKorime.Name = "txtKorime";
+            this.txtKorime.Size = new System.Drawing.Size(159, 20);
+            this.txtKorime.TabIndex = 4;
             // 
-            // textBox5
+            // txtLozinka
             // 
-            this.textBox5.Location = new System.Drawing.Point(91, 186);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(159, 20);
-            this.textBox5.TabIndex = 5;
+            this.txtLozinka.Location = new System.Drawing.Point(91, 186);
+            this.txtLozinka.Name = "txtLozinka";
+            this.txtLozinka.Size = new System.Drawing.Size(159, 20);
+            this.txtLozinka.TabIndex = 5;
             // 
             // label1
             // 
@@ -99,15 +99,15 @@
             // 
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.dtpBox);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.btnDodajClana);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtIme);
+            this.groupBox1.Controls.Add(this.txtLozinka);
+            this.groupBox1.Controls.Add(this.txtPrezime);
+            this.groupBox1.Controls.Add(this.txtKorime);
             this.groupBox1.Location = new System.Drawing.Point(12, 43);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(311, 285);
@@ -133,12 +133,12 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Datum rodenja:";
             // 
-            // dateTimePicker1
+            // dtpBox
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(91, 111);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(159, 20);
-            this.dateTimePicker1.TabIndex = 10;
+            this.dtpBox.Location = new System.Drawing.Point(91, 111);
+            this.dtpBox.Name = "dtpBox";
+            this.dtpBox.Size = new System.Drawing.Size(159, 20);
+            this.dtpBox.TabIndex = 10;
             // 
             // label4
             // 
@@ -160,7 +160,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Controls.Add(this.dgvPrikazSvihClanova);
             this.groupBox2.Location = new System.Drawing.Point(360, 43);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(414, 285);
@@ -168,13 +168,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Prikaz svih clanova";
             // 
-            // dataGridView1
+            // dgvPrikazSvihClanova
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 29);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(392, 234);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvPrikazSvihClanova.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPrikazSvihClanova.Location = new System.Drawing.Point(16, 29);
+            this.dgvPrikazSvihClanova.Name = "dgvPrikazSvihClanova";
+            this.dgvPrikazSvihClanova.Size = new System.Drawing.Size(392, 234);
+            this.dgvPrikazSvihClanova.TabIndex = 0;
             // 
             // btnObrisiClana
             // 
@@ -199,7 +199,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPrikazSvihClanova)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -207,19 +207,19 @@
         #endregion
 
         private System.Windows.Forms.Button btnDodajClana;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtIme;
+        private System.Windows.Forms.TextBox txtPrezime;
+        private System.Windows.Forms.TextBox txtKorime;
+        private System.Windows.Forms.TextBox txtLozinka;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvPrikazSvihClanova;
         private System.Windows.Forms.Button btnObrisiClana;
     }
 }
