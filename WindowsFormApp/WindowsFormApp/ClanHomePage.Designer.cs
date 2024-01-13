@@ -216,6 +216,7 @@
             this.btnPosudiKnjigu.TabIndex = 13;
             this.btnPosudiKnjigu.Text = "Posudi knjigu";
             this.btnPosudiKnjigu.UseVisualStyleBackColor = true;
+            this.btnPosudiKnjigu.Click += new System.EventHandler(this.btnPosudiKnjigu_Click);
             // 
             // btnVratiKnjigu
             // 
@@ -225,6 +226,7 @@
             this.btnVratiKnjigu.TabIndex = 14;
             this.btnVratiKnjigu.Text = "Vrati knjigu";
             this.btnVratiKnjigu.UseVisualStyleBackColor = true;
+            this.btnVratiKnjigu.Click += new System.EventHandler(this.btnVratiKnjigu_Click);
             // 
             // groupBox4
             // 

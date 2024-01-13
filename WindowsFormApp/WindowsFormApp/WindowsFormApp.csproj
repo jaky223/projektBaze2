@@ -119,6 +119,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servisi\ClanServis.cs" />
+    <Compile Include="Servisi\KnjigaServis.cs" />
     <Compile Include="Servisi\OpomenaServis.cs" />
     <Compile Include="Servisi\ZaposlenikServis.cs" />
     <Compile Include="ZaposlenikHomePage.cs">
