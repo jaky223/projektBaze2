@@ -12,6 +12,8 @@ namespace WindowsFormApp
 {
     public partial class Form1 : Form
     {
+
+        private ZaposlenikServis zaposlenikServis;
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace WindowsFormApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            zaposlenikServis = new ZaposlenikServis();
         }
 
         private void btnLoginZaposlenik_Click(object sender, EventArgs e)

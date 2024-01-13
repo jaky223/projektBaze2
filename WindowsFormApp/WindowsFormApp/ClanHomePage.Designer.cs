@@ -48,7 +48,7 @@
             this.btnVratiKnjigu = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dgvOpomene = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnDetaljiKnjige = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -239,21 +239,21 @@
             this.dgvOpomene.Size = new System.Drawing.Size(296, 84);
             this.dgvOpomene.TabIndex = 0;
             // 
-            // button1
+            // btnDetaljiKnjige
             // 
-            this.button1.Location = new System.Drawing.Point(548, 167);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 42);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Detalji knjige";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDetaljiKnjige.Location = new System.Drawing.Point(548, 167);
+            this.btnDetaljiKnjige.Name = "btnDetaljiKnjige";
+            this.btnDetaljiKnjige.Size = new System.Drawing.Size(111, 42);
+            this.btnDetaljiKnjige.TabIndex = 16;
+            this.btnDetaljiKnjige.Text = "Detalji knjige";
+            this.btnDetaljiKnjige.UseVisualStyleBackColor = true;
             // 
             // ClanHomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnDetaljiKnjige);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.btnVratiKnjigu);
             this.Controls.Add(this.btnPosudiKnjigu);
@@ -296,6 +296,6 @@
         private System.Windows.Forms.Button btnVratiKnjigu;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.DataGridView dgvOpomene;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDetaljiKnjige;
     }
 }

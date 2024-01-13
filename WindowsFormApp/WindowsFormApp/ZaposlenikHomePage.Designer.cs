@@ -43,9 +43,18 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgvPrikazSvihClanova = new System.Windows.Forms.DataGridView();
             this.btnObrisiClana = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnDodajOpomenu = new System.Windows.Forms.Button();
+            this.txtNaslov = new System.Windows.Forms.TextBox();
+            this.txtSadrzaj = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrikazSvihClanova)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnDodajClana
@@ -171,7 +180,7 @@
             // dgvPrikazSvihClanova
             // 
             this.dgvPrikazSvihClanova.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPrikazSvihClanova.Location = new System.Drawing.Point(16, 29);
+            this.dgvPrikazSvihClanova.Location = new System.Drawing.Point(6, 19);
             this.dgvPrikazSvihClanova.Name = "dgvPrikazSvihClanova";
             this.dgvPrikazSvihClanova.Size = new System.Drawing.Size(392, 234);
             this.dgvPrikazSvihClanova.TabIndex = 0;
@@ -185,11 +194,77 @@
             this.btnObrisiClana.Text = "Obrisi clana";
             this.btnObrisiClana.UseVisualStyleBackColor = true;
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.Controls.Add(this.txtSadrzaj);
+            this.groupBox3.Controls.Add(this.txtNaslov);
+            this.groupBox3.Controls.Add(this.btnDodajOpomenu);
+            this.groupBox3.Controls.Add(this.dataGridView1);
+            this.groupBox3.Location = new System.Drawing.Point(795, 43);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 285);
+            this.groupBox3.TabIndex = 14;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Opomene";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(6, 19);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(188, 106);
+            this.dataGridView1.TabIndex = 1;
+            // 
+            // btnDodajOpomenu
+            // 
+            this.btnDodajOpomenu.Location = new System.Drawing.Point(43, 222);
+            this.btnDodajOpomenu.Name = "btnDodajOpomenu";
+            this.btnDodajOpomenu.Size = new System.Drawing.Size(111, 42);
+            this.btnDodajOpomenu.TabIndex = 15;
+            this.btnDodajOpomenu.Text = "Dodaj opomenu";
+            this.btnDodajOpomenu.UseVisualStyleBackColor = true;
+            // 
+            // txtNaslov
+            // 
+            this.txtNaslov.Location = new System.Drawing.Point(66, 135);
+            this.txtNaslov.Name = "txtNaslov";
+            this.txtNaslov.Size = new System.Drawing.Size(128, 20);
+            this.txtNaslov.TabIndex = 16;
+            // 
+            // txtSadrzaj
+            // 
+            this.txtSadrzaj.Location = new System.Drawing.Point(66, 171);
+            this.txtSadrzaj.Multiline = true;
+            this.txtSadrzaj.Name = "txtSadrzaj";
+            this.txtSadrzaj.Size = new System.Drawing.Size(128, 45);
+            this.txtSadrzaj.TabIndex = 17;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(18, 138);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(43, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Naslov:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(15, 174);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(45, 13);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Sadrzaj:";
+            // 
             // ZaposlenikHomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1036, 450);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btnObrisiClana);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -200,6 +275,9 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrikazSvihClanova)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -221,5 +299,12 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dgvPrikazSvihClanova;
         private System.Windows.Forms.Button btnObrisiClana;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtSadrzaj;
+        private System.Windows.Forms.TextBox txtNaslov;
+        private System.Windows.Forms.Button btnDodajOpomenu;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
